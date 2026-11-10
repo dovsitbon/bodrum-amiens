@@ -1,0 +1,18 @@
+{
+  "_doc": "Coordonnées et réglages généraux. « À REMPLIR » : voir INFOS-A-DEMANDER.md. rating : note Google relevée à la main (mettre à jour value, count et checked). whatsapp : numéro portable au format international sans + (ex. 33612345678) ; vide = pas de bouton WhatsApp. payment.online : paiement en ligne (Stripe), désactivé par défaut.",
+  "name": "Bodrum",
+  "fullName": "Bodrum Kebab & Tacos",
+  "url": "https://bodrum-amiens.vercel.app",
+  "phone": "09 84 71 29 70",
+  "phoneIntl": "+33984712970",
+  "whatsapp": "",
+  "email": "",
+  "address": { "street": "109 chaussée Jules Ferry", "streetToConfirm": true, "postalCode": "80090", "city": "Amiens", "district": "Amiens sud-est", "region": "Hauts-de-France", "country": "FR" },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bodrum+kebab+chauss%C3%A9e+Jules+Ferry+80090+Amiens",
+  "mapsDir": "https://www.google.com/maps/dir/?api=1&destination=Bodrum+kebab+chauss%C3%A9e+Jules+Ferry+80090+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=Bodrum,+chauss%C3%A9e+Jules+Ferry,+80090+Amiens&z=15&output=embed",
+  "rating": { "value": 4.7, "count": 191, "source": "Google", "checked": "2026-11-10" },
+  "order": { "minutesAhead": 20, "stepMinutes": 15, "daysAhead": 2, "maxPerLine": 20 },
+  "payment": { "online": false, "provider": "stripe" },
+  "legal": { "company": "", "siret": "", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

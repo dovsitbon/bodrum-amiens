@@ -1,0 +1,390 @@
+@import "tailwindcss";
+
+/* Polices en local (public/fonts) : Fraunces (axe SOFT, capitales arrondies) pour les titres, Inter pour le texte. */
+@font-face {
+  font-family: "Fraunces Local";
+  src: url("/fonts/fraunces-latin-soft-normal.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Local";
+  src: url("/fonts/inter-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Bodrum : murs blanchis à la chaux, mer Égée, volets turquoise, sable, et le rouge du grill en touches. */
+  --color-chaux: #faf8f4;
+  --color-chaux-deep: #f1ece2;
+  --color-sea: #1f5e8c;
+  /* Bleu foncé pour petit texte et survols : 9:1 sur chaux */
+  --color-sea-ink: #154669;
+  --color-sea-soft: #dde9f2;
+  --color-turq: #3fa7b5;
+  --color-turq-soft: #dcf0f2;
+  --color-kebab: #c23b22;
+  --color-sand: #e8d7b5;
+  --color-sand-soft: #f4ecdc;
+  --color-ink: #13283a;
+  /* Texte courant : 7:1 sur chaux */
+  --color-muted: #4a5866;
+  --color-line: #e4ddd0;
+
+  --font-body: "Inter Local", system-ui, sans-serif;
+  --font-display: "Fraunces Local", Georgia, serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-pop: cubic-bezier(0.34, 1.3, 0.64, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-block-start: 6rem;
+  }
+  body {
+    background: var(--color-chaux);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-sand);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-sea);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-sea);
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 560;
+    font-variation-settings: "SOFT" 100;
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-line,
+  .btn-light {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-block-size: 3rem;
+    padding-block: 0.7rem;
+    padding-inline: 1.5rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.1;
+    transition:
+      background-color 0.2s var(--ease-soft),
+      color 0.2s var(--ease-soft),
+      border-color 0.2s var(--ease-soft),
+      transform 0.2s var(--ease-soft);
+  }
+  .btn:active,
+  .btn-line:active,
+  .btn-light:active {
+    transform: scale(0.97);
+  }
+  .btn {
+    background: var(--color-sea);
+    border: 2px solid var(--color-sea);
+    color: #fff;
+  }
+  .btn:hover {
+    background: var(--color-sea-ink);
+    border-color: var(--color-sea-ink);
+  }
+  .btn-line {
+    border: 2px solid var(--color-ink);
+    color: var(--color-ink);
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    color: var(--color-chaux);
+  }
+  .btn-light {
+    background: var(--color-chaux);
+    border: 2px solid var(--color-chaux);
+    color: var(--color-ink);
+  }
+  .btn-light:hover {
+    background: var(--color-sand-soft);
+    border-color: var(--color-sand-soft);
+  }
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.25em;
+    text-decoration-color: var(--color-turq);
+    transition: text-decoration-color 0.2s;
+  }
+  .link-line:hover {
+    text-decoration-color: currentColor;
+  }
+
+  /* L'arche blanchie à la chaux des maisons de Bodrum : le motif du site */
+  .arch {
+    border-start-start-radius: 999px;
+    border-start-end-radius: 999px;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    overflow: hidden;
+  }
+  .card {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .field {
+    inline-size: 100%;
+    min-block-size: 3rem;
+    border: 1.5px solid var(--color-line);
+    border-radius: 12px;
+    background: #fff;
+    padding-block: 0.6rem;
+    padding-inline: 0.9rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition: border-color 0.2s;
+  }
+  select.field {
+    appearance: none;
+    background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231f5e8c' stroke-width='2.2' stroke-linecap='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.8rem center / 1.1rem;
+    padding-inline-end: 2.4rem;
+    cursor: pointer;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-sea);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-kebab);
+  }
+  .field::placeholder {
+    color: #8792a0;
+  }
+  .label {
+    display: block;
+    margin-block-end: 0.4rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-muted);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-block-size: 2.75rem;
+    padding-block: 0.45rem;
+    padding-inline: 1rem;
+    border: 1.5px solid var(--color-line);
+    border-radius: 999px;
+    background: #fff;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-sea);
+  }
+  .chip:has(input:checked),
+  .chip[aria-pressed="true"] {
+    border-color: var(--color-sea);
+    background: var(--color-sea);
+    color: #fff;
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-sea);
+    outline-offset: 3px;
+  }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    padding-block: 0.1rem;
+    padding-inline: 0.55rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  .zoom {
+    position: relative;
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 0.6s var(--ease-soft);
+  }
+  .group:hover .zoom img {
+    transform: scale(1.03);
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) : courte et sobre */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 16px));
+}
+.reveal {
+  transition:
+    opacity 0.55s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 0.55s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.25s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 0.6s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (1,2 s) : fond chaux, une vague et un soleil se dessinent au trait bleu,
+   « BODRUM » apparaît, puis « KEBAB · TACOS · AMIENS », fondu sur le hero. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-chaux);
+  animation: intro-out 0.25s ease-out 0.95s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw var(--t, 0.4s) cubic-bezier(0.55, 0, 0.3, 1) var(--d, 0s) forwards;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-word,
+.intro-tag {
+  opacity: 0;
+  transform: translateY(6px);
+  animation: intro-word 0.25s var(--ease-soft) var(--d, 0.5s) forwards;
+}
+@keyframes intro-word {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+.faq-plus {
+  transition: transform 0.25s var(--ease-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

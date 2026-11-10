@@ -1,0 +1,9 @@
+# Bodrum — Kebab & Tacos, Amiens
+
+> Kebab et tacos, chaussée Jules Ferry, 80090 Amiens (sud-est). Ouvert tous les jours de 11 h à minuit. Sur place et à emporter. Téléphone : 09 84 71 29 70. Note Google 4,7/5 (191 avis, relevée le 10/11/2026).
+
+- [Accueil (FR)](https://bodrum-amiens.vercel.app/fr): commande à emporter en ligne, horaires, accès, FAQ
+- [Carte et prix](https://bodrum-amiens.vercel.app/fr/carte): kebab, dürüm, tacos, assiettes, burgers, menus, salades, boissons
+- [Kebab à Amiens](https://bodrum-amiens.vercel.app/fr/kebab-amiens)
+- [Tacos à Amiens](https://bodrum-amiens.vercel.app/fr/tacos-amiens)
+- [English](https://bodrum-amiens.vercel.app/en)

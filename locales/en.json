@@ -1,0 +1,556 @@
+{
+  "meta": {
+    "title": "Kebab and tacos in Amiens, chaussée Jules Ferry | Bodrum",
+    "description": "Bodrum, kebab and tacos on chaussée Jules Ferry in Amiens. Open every day from 11 am to midnight. House kebab, dürüms, plates, burgers. Order for pick-up online or on 09 84 71 29 70.",
+    "ogAlt": "Bodrum, kebab and tacos in Amiens"
+  },
+  "intro": {
+    "skip": "Skip",
+    "tagline": "KEBAB · TACOS · AMIENS"
+  },
+  "announce": {
+    "close": "Close the banner"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close the menu",
+    "home": "Bodrum, home",
+    "carte": "Menu",
+    "order": "Order",
+    "infos": "Info",
+    "orderCta": "Order",
+    "call": "Call",
+    "route": "Directions",
+    "lang": "Language"
+  },
+  "hero": {
+    "eyebrow": "Kebab · Tacos · Chaussée Jules Ferry, Amiens",
+    "title": "The kebab people recommend.",
+    "sub": "Marinated, grilled meat, warm bread, fresh salad. Every day, until midnight.",
+    "ctaOrder": "Order",
+    "ctaMenu": "See the menu",
+    "rating": "{value}/5",
+    "ratingCount": "{count} Google reviews",
+    "ratingNote": "Google rating checked on {date}",
+    "photoNote": "Photo spot: a close-up of a kebab fresh off the grill"
+  },
+  "tiles": {
+    "title": "What we serve",
+    "items": {
+      "kebab": "Kebab",
+      "tacos": "Tacos",
+      "assiettes": "Plates",
+      "burgers": "Burgers",
+      "menus": "Meal deals",
+      "boissons": "Drinks"
+    }
+  },
+  "services": {
+    "title": "Good to know",
+    "items": [
+      {
+        "t": "7 days, until midnight",
+        "x": "From 11 am to midnight, every day."
+      },
+      {
+        "t": "Takeaway",
+        "x": "Order ahead, we cook for your time."
+      },
+      {
+        "t": "Clean kitchen",
+        "x": "Tidy counter, fresh salad."
+      },
+      {
+        "t": "By phone",
+        "x": "Just call 09 84 71 29 70."
+      }
+    ]
+  },
+  "carte": {
+    "eyebrow": "The menu",
+    "title": "Everything made at the counter.",
+    "intro": "Kebab, dürüm, tacos, plates, burgers. Pick, add, and we take it from there.",
+    "seeFull": "Full-page menu",
+    "tabsLabel": "Menu categories",
+    "tabs": {
+      "kebab": "Kebab",
+      "durum": "Dürüm",
+      "tacos": "Tacos",
+      "assiettes": "Plates",
+      "burgers": "Burgers",
+      "menus": "Meal deals",
+      "salades": "Salads & fries",
+      "boissons": "Drinks"
+    },
+    "add": "Add",
+    "added": "Added",
+    "addLabel": "Add {name} to your order",
+    "priceOnSite": "Price at the counter",
+    "sauceTitle": "Sauce of your choice",
+    "sauces": {
+      "blanche": "House white sauce",
+      "algerienne": "Algerian",
+      "samourai": "Samurai",
+      "harissa": "Harissa",
+      "biggy": "Biggy",
+      "barbecue": "Barbecue",
+      "ketchup": "Ketchup",
+      "mayonnaise": "Mayonnaise"
+    },
+    "veggie": "Vegetarian",
+    "star": "Most ordered",
+    "allergens": "Allergies: just ask us at the counter.",
+    "indicative": "Prices are a guide and confirmed at the counter.",
+    "checked": "Menu updated on {date}."
+  },
+  "products": {
+    "berlin-classic": {
+      "name": "Classic kebab",
+      "desc": "Marinated meat, tomato, red onion, salad and our house white sauce."
+    },
+    "berlin-burrata": {
+      "name": "Burrata kebab",
+      "desc": "Our house kebab, red and white cabbage, topped with a whole burrata."
+    },
+    "berlin-avocat": {
+      "name": "Avocado kebab",
+      "desc": "Our house kebab, salad, white sauce and fresh avocado."
+    },
+    "berlin-chef": {
+      "name": "Chef’s kebab",
+      "desc": "Kebab and chicken escalope, salad, with feta, burrata or goat’s cheese and honey."
+    },
+    "berlin-chevre-miel": {
+      "name": "Goat’s cheese & honey kebab",
+      "desc": "Grilled meat, melting goat’s cheese and a drizzle of honey."
+    },
+    "berlin-gemuse": {
+      "name": "Grilled veg kebab",
+      "desc": "Grilled courgette, pepper, aubergine and carrot, feta and white sauce."
+    },
+    "berlin-poulet": {
+      "name": "Chicken kebab",
+      "desc": "Breaded chicken escalope, salad and house sauce."
+    },
+    "berlin-veggie": {
+      "name": "Veggie kebab",
+      "desc": "Crispy falafels, cabbage, feta and pomegranate."
+    },
+    "durum-classic": {
+      "name": "Classic dürüm",
+      "desc": "Kebab meat, salad and sauce, rolled in a thin flatbread."
+    },
+    "durum-berliner": {
+      "name": "Berliner dürüm",
+      "desc": "Our house kebab recipe, rolled up."
+    },
+    "durum-mixte": {
+      "name": "Mixed dürüm",
+      "desc": "Kebab and chicken, for when you can’t choose."
+    },
+    "durum-chef": {
+      "name": "Chef’s dürüm",
+      "desc": "Kebab, chicken and grilled vegetables. The full works."
+    },
+    "durum-cheddar": {
+      "name": "Cheddar dürüm",
+      "desc": "Kebab meat, salad and melted cheddar."
+    },
+    "durum-poulet": {
+      "name": "Chicken dürüm",
+      "desc": "Breaded escalope, salad and house sauce."
+    },
+    "durum-vegan": {
+      "name": "Vegan dürüm",
+      "desc": "Falafels, fresh vegetables and a light sauce."
+    },
+    "durum-veg-feta": {
+      "name": "Falafel feta dürüm",
+      "desc": "Falafels and soft feta."
+    },
+    "tacos-1": {
+      "name": "Tacos, 1 meat",
+      "desc": "Meat of your choice, fries and cheese sauce, grilled on the plancha."
+    },
+    "tacos-2": {
+      "name": "Tacos, 2 meats",
+      "desc": "Two meats, fries and cheese sauce. Tell us your meats in the notes."
+    },
+    "tacos-3": {
+      "name": "Tacos, 3 meats",
+      "desc": "Three meats, fries and cheese sauce. For big appetites."
+    },
+    "assiette-classic": {
+      "name": "Kebab plate",
+      "desc": "Kebab meat, homemade fries, fresh salad and sauce."
+    },
+    "assiette-chef": {
+      "name": "Chef’s plate",
+      "desc": "Kebab, chicken, burrata and grilled vegetables, with fries."
+    },
+    "assiette-berliner": {
+      "name": "Berliner plate",
+      "desc": "Our house kebab on a well-filled plate."
+    },
+    "assiette-gemuse": {
+      "name": "Grilled veg plate",
+      "desc": "Kebab meat and grilled vegetables."
+    },
+    "assiette-poulet": {
+      "name": "Chicken plate",
+      "desc": "Crispy escalope, homemade fries and salad."
+    },
+    "assiette-veggie": {
+      "name": "Veggie plate",
+      "desc": "Falafels, salad and feta."
+    },
+    "assiette-vegan": {
+      "name": "Vegan plate",
+      "desc": "Lentil balls, salad and homemade fries."
+    },
+    "burger-classic": {
+      "name": "Classic burger",
+      "desc": "Fresh butcher’s patty, cheddar, bakery bun. With homemade fries."
+    },
+    "chicken-burger": {
+      "name": "Chicken burger",
+      "desc": "Crispy chicken, lettuce, tomato and house sauce. With fries."
+    },
+    "burger-parisien": {
+      "name": "Parisian burger",
+      "desc": "Patty, cheddar and house sauce in a soft bun. With fries."
+    },
+    "burger-raclette": {
+      "name": "Raclette burger",
+      "desc": "Grilled patty and melted raclette. With fries."
+    },
+    "burger-chevre-miel": {
+      "name": "Goat’s cheese & honey burger",
+      "desc": "Melting goat’s cheese and a touch of honey. With fries."
+    },
+    "menu-kebab": {
+      "name": "Kebab meal",
+      "desc": "A kebab, fries and a drink."
+    },
+    "menu-tacos": {
+      "name": "Tacos meal",
+      "desc": "A tacos and a drink."
+    },
+    "menu-enfant": {
+      "name": "Kids’ meal",
+      "desc": "A small portion, fries and a drink."
+    },
+    "salade-feta": {
+      "name": "Feta salad",
+      "desc": "Fresh salad, feta and pomegranate."
+    },
+    "salade-burrata": {
+      "name": "Burrata salad",
+      "desc": "Creamy burrata on fresh leaves."
+    },
+    "salade-cesar": {
+      "name": "Caesar salad",
+      "desc": "Chicken, parmesan, Caesar dressing."
+    },
+    "frites": {
+      "name": "Homemade fries",
+      "desc": "Made on site."
+    },
+    "frites-cheddar": {
+      "name": "Cheddar fries",
+      "desc": "Our fries with melted cheddar."
+    },
+    "coca": {
+      "name": "Coca-Cola",
+      "desc": "33 cl can."
+    },
+    "coca-zero": {
+      "name": "Coca-Cola Zero",
+      "desc": "33 cl can."
+    },
+    "ice-tea": {
+      "name": "Lipton Ice Tea",
+      "desc": "33 cl can."
+    },
+    "oasis": {
+      "name": "Oasis Tropical",
+      "desc": "33 cl can."
+    },
+    "fanta": {
+      "name": "Fanta Orange",
+      "desc": "33 cl can."
+    },
+    "schweppes": {
+      "name": "Schweppes Citrus",
+      "desc": "33 cl can."
+    },
+    "eau-petillante": {
+      "name": "Sparkling water",
+      "desc": "50 cl bottle."
+    },
+    "eau-plate": {
+      "name": "Still water",
+      "desc": "50 cl bottle."
+    }
+  },
+  "order": {
+    "eyebrow": "Takeaway",
+    "title": "Order ahead, we cook.",
+    "intro": "Pick your dishes and your time. Your order is ready when you arrive. You pay at the counter.",
+    "callTitle": "Easier by phone?",
+    "callText": "We also take orders at the counter and by phone, until midnight.",
+    "callCta": "Call",
+    "cartTitle": "Your order",
+    "cartEmpty": "Nothing yet. Add a dish from the menu, or pick one here.",
+    "dish": "Add a dish",
+    "pick": "Choose…",
+    "quantity": "Quantity",
+    "sauce": "Sauce",
+    "removeLine": "Remove this dish",
+    "modeTitle": "Eat in or take away",
+    "mode": {
+      "takeaway": "Takeaway",
+      "onsite": "Eat in"
+    },
+    "pickupTitle": "Pick-up time",
+    "pickupTitleOnsite": "Arrival time",
+    "day": "Day",
+    "time": "Time",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "noSlots": "No slots left today: choose tomorrow.",
+    "prefsTitle": "Notes",
+    "prefs": {
+      "noOnion": "No onion",
+      "noSalad": "No salad",
+      "spicy": "Extra spicy",
+      "extraSauce": "Sauce on the side"
+    },
+    "message": "Anything else? (tacos meats, allergies…)",
+    "messagePh": "E.g. tacos 2 meats: kebab and chicken",
+    "contactTitle": "Your details",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email (optional)",
+    "emailHint": "To receive a summary of your order.",
+    "total": "Estimated total",
+    "totalNote": "Some prices will be confirmed at the counter.",
+    "submit": "Send my order",
+    "sending": "Sending…",
+    "payNote": "Pay at the counter when you collect.",
+    "payOnline": "Pay online",
+    "whatsapp": "Send on WhatsApp",
+    "errors": {
+      "lines": "Add at least one dish.",
+      "day": "Choose a day.",
+      "time": "Choose a time.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn’t look right.",
+      "send": "Your order didn’t go through. Give us a call and we’ll take it straight away."
+    },
+    "done": {
+      "title": "Got it.",
+      "text": "Your order has reached Bodrum. We’ll have it ready for your time.",
+      "pendingTitle": "One last step: a quick call.",
+      "pendingText": "Your order is ready to go. Call us to confirm it, with this summary in front of you.",
+      "mail": "A summary is on its way to {email}.",
+      "again": "New order"
+    },
+    "mail": {
+      "subject": "New order",
+      "title": "New order to prepare",
+      "lines": "Order",
+      "mode": "Service",
+      "pickup": "Time",
+      "prefs": "Notes",
+      "total": "Estimated total",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Details",
+      "lang": "Customer language",
+      "confirmSubject": "Your order at Bodrum",
+      "confirmIntro": "Hello {name},\nthank you for your order. Here it is:",
+      "confirmOutro": "Payment at the counter. Need to change something? Call us on +33 9 84 71 29 70.\nSee you soon on chaussée Jules Ferry.\nThe Bodrum team"
+    }
+  },
+  "blocks": {
+    "kebab": {
+      "eyebrow": "Our house kebab",
+      "title": "Marinated, grilled, sliced to order.",
+      "text": "It’s the dish people ask for most. Marinated meat, sliced as we serve it, warm bread and our house white sauce. Nothing fancy, just done right.",
+      "cta": "See the menu",
+      "photoNote": "Photo spot: the kebab spit, sliced to order"
+    },
+    "clean": {
+      "eyebrow": "Cleanliness",
+      "title": "A kitchen you’d happily look at.",
+      "text": "A tidy counter, a well-kept room, fresh salad. In reviews, it’s often the first thing customers mention, right after the kebab.",
+      "cta": "Order",
+      "photoNote": "Photo spot: the counter and the kitchen"
+    },
+    "visit": {
+      "eyebrow": "Finding us",
+      "title": "Chaussée Jules Ferry, south-east Amiens.",
+      "text": "On the road out towards Saint-Acheul and Boves. Stop by car, bike or on foot, pick up your order and off you go.",
+      "cta": "Directions",
+      "photoNote": "Photo spot: the shopfront and sign"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "What our customers say.",
+    "intro": "On Google, what comes up most often: the kebab, the welcome, the food and how clean it is.",
+    "themes": [
+      "The kebab",
+      "The service",
+      "The food",
+      "Cleanliness"
+    ],
+    "cta": "Read the reviews on Google",
+    "soon": "Customer reviews will appear here, with their permission."
+  },
+  "infos": {
+    "eyebrow": "Practical info",
+    "title": "Come and see us.",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "access": "Getting here",
+    "accessText": "Chaussée Jules Ferry, in south-east Amiens, towards Saint-Acheul and Boves.",
+    "parking": "Parking",
+    "parkingText": "",
+    "route": "Directions",
+    "mapTitle": "Bodrum on Google Maps",
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "closed": "Closed",
+    "everyDay": "Every day"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Good to know.",
+    "items": [
+      {
+        "q": "What are your opening hours?",
+        "a": "Bodrum is open every day from 11 am to midnight. The open / closed status at the top of the page updates live."
+      },
+      {
+        "q": "How do I order for pick-up?",
+        "a": "Use the order form on this site, or call us on 09 84 71 29 70. Choose your time and your order will be ready when you arrive."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "Online, the first slot is about 20 minutes after you order. In the evening and at weekends, allow a little longer."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "You pay at the counter when you collect. Nothing is charged online."
+      },
+      {
+        "q": "Do you have vegetarian options?",
+        "a": "Yes: the falafel veggie kebab, the vegan dürüm, the veggie and vegan plates, salads and homemade fries."
+      },
+      {
+        "q": "Where are you?",
+        "a": "Chaussée Jules Ferry, 80090 Amiens, on the south-east side of town. The Directions button opens the route in Google Maps."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Kebab and tacos on chaussée Jules Ferry, Amiens. Every day until midnight.",
+    "menu": "Menu",
+    "kebab": "Kebab in Amiens",
+    "tacos": "Tacos in Amiens",
+    "legal": "Legal notice",
+    "rights": "© {year} Bodrum, Amiens"
+  },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed",
+    "until": "until {time}",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "pages": {
+    "carte": {
+      "slug": "menu",
+      "metaTitle": "Menu and prices | Bodrum, kebab and tacos in Amiens",
+      "metaDescription": "Bodrum’s menu in Amiens: house kebab, dürüms, tacos, plates, burgers, salads and drinks, with prices. Takeaway orders.",
+      "eyebrow": "The menu",
+      "title": "Bodrum’s menu.",
+      "lead": "All our dishes and prices. Add what you like; you place the order on the home page."
+    },
+    "kebab": {
+      "slug": "kebab-amiens",
+      "metaTitle": "Kebab in Amiens, chaussée Jules Ferry | Bodrum",
+      "metaDescription": "Looking for a good kebab in Amiens? Bodrum, chaussée Jules Ferry (south-east Amiens): marinated meat, warm bread, house white sauce. Open 7 days until midnight.",
+      "eyebrow": "Kebab in Amiens",
+      "title": "Kebab on chaussée Jules Ferry.",
+      "lead": "Bodrum is a kebab shop in south-east Amiens, open every day from 11 am to midnight. Kebab is our main dish, and the one customers mention most in their Google reviews.",
+      "sections": [
+        {
+          "h": "How we make it",
+          "p": "The meat is marinated, grilled on the spit and sliced as we serve it. It goes into warm bread with lettuce, tomato, red onion and our house white sauce."
+        },
+        {
+          "h": "Bread, dürüm or plate",
+          "p": "The same kebab comes as a dürüm (rolled in a thin flatbread) or on a plate with homemade fries. You can also have it with burrata, avocado, goat’s cheese and honey, or grilled vegetables."
+        },
+        {
+          "h": "Where to find us",
+          "p": "Chaussée Jules Ferry, 80090 Amiens, on the road to Saint-Acheul and Boves. Handy for south-east Amiens and for anyone driving past."
+        }
+      ],
+      "cta": "Order a kebab"
+    },
+    "tacos": {
+      "slug": "tacos-amiens",
+      "metaTitle": "Tacos in Amiens, open until midnight | Bodrum",
+      "metaDescription": "Tacos in Amiens at Bodrum, chaussée Jules Ferry: 1, 2 or 3 meats, fries and cheese sauce. Open every day until midnight, takeaway.",
+      "eyebrow": "Tacos in Amiens",
+      "title": "Tacos until midnight.",
+      "lead": "At Bodrum, on chaussée Jules Ferry, tacos come with one, two or three meats. Open every day from 11 am to midnight, eat in or take away.",
+      "sections": [
+        {
+          "h": "Build your own",
+          "p": "Choose your meats and sauce; we add fries and cheese sauce, then put it on the plancha."
+        },
+        {
+          "h": "Late at night",
+          "p": "We close at midnight, every day. Order online or by phone and your tacos will be ready when you arrive."
+        },
+        {
+          "h": "Where to find us",
+          "p": "Chaussée Jules Ferry, 80090 Amiens, in the south-east of town."
+        }
+      ],
+      "cta": "Order tacos"
+    },
+    "legal": {
+      "slug": "legal",
+      "metaTitle": "Legal notice | Bodrum Amiens",
+      "title": "Legal notice",
+      "editor": "Publisher",
+      "siret": "SIRET",
+      "director": "Publication director",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "The details you enter in the order form (name, phone, email) are used only to prepare and confirm your order. They are never sold or used for anything else. To have them deleted, call the restaurant on +33 9 84 71 29 70.",
+      "photos": "Photos and content",
+      "photosText": "Text and visuals: Bodrum. No reproduction without permission.",
+      "toConfirm": "to be completed"
+    }
+  },
+  "alt": {}
+}

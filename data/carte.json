@@ -1,0 +1,547 @@
+{
+ "_doc": "La carte. Prix relevés le 10/11/2026 sur la fiche Uber Eats « Grill Bodrum (109 Chaussée Jules Ferry) » : À CONFIRMER avec le restaurant (les prix Uber Eats sont souvent plus élevés qu'au comptoir). null = prix à remplir (le site affiche « prix au comptoir »). Tacos et menus : à remplir entièrement. Noms et descriptions dans locales/fr.json et en.json → products. photo : déposer assets/plats/<id>.jpg puis npm run media (sinon dessin au trait). sauce : sauce au choix à la commande. tags : veggie. star : mis en avant.",
+ "checked": "2026-11-10",
+ "sauces": [
+  "blanche",
+  "algerienne",
+  "samourai",
+  "harissa",
+  "biggy",
+  "barbecue",
+  "ketchup",
+  "mayonnaise"
+ ],
+ "categories": [
+  {
+   "id": "kebab",
+   "items": [
+    "berlin-classic",
+    "berlin-burrata",
+    "berlin-avocat",
+    "berlin-chef",
+    "berlin-chevre-miel",
+    "berlin-gemuse",
+    "berlin-poulet",
+    "berlin-veggie"
+   ]
+  },
+  {
+   "id": "durum",
+   "items": [
+    "durum-classic",
+    "durum-berliner",
+    "durum-mixte",
+    "durum-chef",
+    "durum-cheddar",
+    "durum-poulet",
+    "durum-vegan",
+    "durum-veg-feta"
+   ]
+  },
+  {
+   "id": "tacos",
+   "items": [
+    "tacos-1",
+    "tacos-2",
+    "tacos-3"
+   ]
+  },
+  {
+   "id": "assiettes",
+   "items": [
+    "assiette-classic",
+    "assiette-chef",
+    "assiette-berliner",
+    "assiette-gemuse",
+    "assiette-poulet",
+    "assiette-veggie",
+    "assiette-vegan"
+   ]
+  },
+  {
+   "id": "burgers",
+   "items": [
+    "burger-classic",
+    "chicken-burger",
+    "burger-parisien",
+    "burger-raclette",
+    "burger-chevre-miel"
+   ]
+  },
+  {
+   "id": "menus",
+   "items": [
+    "menu-kebab",
+    "menu-tacos",
+    "menu-enfant"
+   ]
+  },
+  {
+   "id": "salades",
+   "items": [
+    "salade-feta",
+    "salade-burrata",
+    "salade-cesar",
+    "frites",
+    "frites-cheddar"
+   ]
+  },
+  {
+   "id": "boissons",
+   "items": [
+    "coca",
+    "coca-zero",
+    "ice-tea",
+    "oasis",
+    "fanta",
+    "schweppes",
+    "eau-petillante",
+    "eau-plate"
+   ]
+  }
+ ],
+ "items": {
+  "berlin-classic": {
+   "price": 14.9,
+   "illus": "kebab",
+   "sauce": true,
+   "tags": [],
+   "star": true,
+   "photo": [
+    "/media/plats/berlin-classic.jpg"
+   ]
+  },
+  "berlin-burrata": {
+   "price": 12.9,
+   "illus": "kebab",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/berlin-burrata.jpg"
+   ]
+  },
+  "berlin-avocat": {
+   "price": 12.9,
+   "illus": "kebab",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/berlin-avocat.jpg"
+   ]
+  },
+  "berlin-chef": {
+   "price": 13.9,
+   "illus": "kebab",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/berlin-chef.jpg"
+   ]
+  },
+  "berlin-chevre-miel": {
+   "price": 11.9,
+   "illus": "kebab",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/berlin-chevre-miel.jpg"
+   ]
+  },
+  "berlin-gemuse": {
+   "price": 10.9,
+   "illus": "kebab",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/berlin-gemuse.jpg"
+   ]
+  },
+  "berlin-poulet": {
+   "price": 10.9,
+   "illus": "kebab",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/berlin-poulet.jpg"
+   ]
+  },
+  "berlin-veggie": {
+   "price": 9.9,
+   "illus": "kebab",
+   "sauce": true,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/berlin-veggie.jpg"
+   ]
+  },
+  "durum-classic": {
+   "price": 15.9,
+   "illus": "durum",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/durum-classic.jpg"
+   ]
+  },
+  "durum-berliner": {
+   "price": 11.9,
+   "illus": "durum",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/durum-berliner.jpg"
+   ]
+  },
+  "durum-mixte": {
+   "price": 12.9,
+   "illus": "durum",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/durum-mixte.jpg"
+   ]
+  },
+  "durum-chef": {
+   "price": 13.9,
+   "illus": "durum",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/durum-chef.jpg"
+   ]
+  },
+  "durum-cheddar": {
+   "price": 10.5,
+   "illus": "durum",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/durum-cheddar.jpg"
+   ]
+  },
+  "durum-poulet": {
+   "price": 10.9,
+   "illus": "durum",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/durum-poulet.jpg"
+   ]
+  },
+  "durum-vegan": {
+   "price": 9.9,
+   "illus": "durum",
+   "sauce": true,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/durum-vegan.jpg"
+   ]
+  },
+  "durum-veg-feta": {
+   "price": 10.9,
+   "illus": "durum",
+   "sauce": true,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/durum-veg-feta.jpg"
+   ]
+  },
+  "tacos-1": {
+   "price": null,
+   "illus": "tacos",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/tacos-1.jpg"
+   ]
+  },
+  "tacos-2": {
+   "price": null,
+   "illus": "tacos",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/tacos-2.jpg"
+   ]
+  },
+  "tacos-3": {
+   "price": null,
+   "illus": "tacos",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/tacos-3.jpg"
+   ]
+  },
+  "assiette-classic": {
+   "price": 18.9,
+   "illus": "plate",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/assiette-classic.jpg"
+   ]
+  },
+  "assiette-chef": {
+   "price": 18.9,
+   "illus": "plate",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/assiette-chef.jpg"
+   ]
+  },
+  "assiette-berliner": {
+   "price": 17.9,
+   "illus": "plate",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/assiette-berliner.jpg"
+   ]
+  },
+  "assiette-gemuse": {
+   "price": 17.9,
+   "illus": "plate",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/assiette-gemuse.jpg"
+   ]
+  },
+  "assiette-poulet": {
+   "price": 15.9,
+   "illus": "plate",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/assiette-poulet.jpg"
+   ]
+  },
+  "assiette-veggie": {
+   "price": 15.9,
+   "illus": "plate",
+   "sauce": true,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/assiette-veggie.jpg"
+   ]
+  },
+  "assiette-vegan": {
+   "price": 15.9,
+   "illus": "plate",
+   "sauce": true,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/assiette-vegan.jpg"
+   ]
+  },
+  "burger-classic": {
+   "price": 13.9,
+   "illus": "burger",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/burger-classic.jpg"
+   ]
+  },
+  "chicken-burger": {
+   "price": 13.9,
+   "illus": "burger",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/chicken-burger.jpg"
+   ]
+  },
+  "burger-parisien": {
+   "price": 14.9,
+   "illus": "burger",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/burger-parisien.jpg"
+   ]
+  },
+  "burger-raclette": {
+   "price": 14.9,
+   "illus": "burger",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/burger-raclette.jpg"
+   ]
+  },
+  "burger-chevre-miel": {
+   "price": 14.9,
+   "illus": "burger",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/burger-chevre-miel.jpg"
+   ]
+  },
+  "menu-kebab": {
+   "price": null,
+   "illus": "menu",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/menu-kebab.jpg"
+   ]
+  },
+  "menu-tacos": {
+   "price": null,
+   "illus": "menu",
+   "sauce": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/menu-tacos.jpg"
+   ]
+  },
+  "menu-enfant": {
+   "price": null,
+   "illus": "menu",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/menu-enfant.jpg"
+   ]
+  },
+  "salade-feta": {
+   "price": 12.9,
+   "illus": "salad",
+   "sauce": false,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/salade-feta.jpg"
+   ]
+  },
+  "salade-burrata": {
+   "price": 13.9,
+   "illus": "salad",
+   "sauce": false,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/salade-burrata.jpg"
+   ]
+  },
+  "salade-cesar": {
+   "price": 13.9,
+   "illus": "salad",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/salade-cesar.jpg"
+   ]
+  },
+  "frites": {
+   "price": 4.5,
+   "illus": "fries",
+   "sauce": false,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/frites.jpg"
+   ]
+  },
+  "frites-cheddar": {
+   "price": 6,
+   "illus": "fries",
+   "sauce": false,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/frites-cheddar.jpg"
+   ]
+  },
+  "coca": {
+   "price": 2.5,
+   "illus": "can",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/coca.jpg"
+   ]
+  },
+  "coca-zero": {
+   "price": 2.5,
+   "illus": "can",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/coca-zero.jpg"
+   ]
+  },
+  "ice-tea": {
+   "price": 2.5,
+   "illus": "can",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/ice-tea.jpg"
+   ]
+  },
+  "oasis": {
+   "price": 2.5,
+   "illus": "can",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/oasis.jpg"
+   ]
+  },
+  "fanta": {
+   "price": 2.5,
+   "illus": "can",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/fanta.jpg"
+   ]
+  },
+  "schweppes": {
+   "price": 2.5,
+   "illus": "can",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/schweppes.jpg"
+   ]
+  },
+  "eau-petillante": {
+   "price": 2,
+   "illus": "bottle",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/eau-petillante.jpg"
+   ]
+  },
+  "eau-plate": {
+   "price": 2,
+   "illus": "bottle",
+   "sauce": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/eau-plate.jpg"
+   ]
+  }
+ }
+}

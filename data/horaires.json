@@ -1,0 +1,14 @@
+{
+  "_doc": "Horaires (heure de Paris) d'après la fiche Google : tous les jours de 11 h à minuit (À CONFIRMER avec le restaurant). 1 = lundi … 7 = dimanche. « 24:00 » = minuit. exceptions : fermetures ou horaires spéciaux datés (AAAA-MM-JJ), « closed » ou des créneaux. Le statut « Ouvert / Fermé » et les heures de retrait des commandes en dépendent.",
+  "timezone": "Europe/Paris",
+  "week": {
+    "1": [["11:00", "24:00"]],
+    "2": [["11:00", "24:00"]],
+    "3": [["11:00", "24:00"]],
+    "4": [["11:00", "24:00"]],
+    "5": [["11:00", "24:00"]],
+    "6": [["11:00", "24:00"]],
+    "7": [["11:00", "24:00"]]
+  },
+  "exceptions": []
+}
